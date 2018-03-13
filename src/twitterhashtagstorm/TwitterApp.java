@@ -232,7 +232,7 @@ public class TwitterApp extends javax.swing.JFrame {
                         .addComponent(noof_tags_count_lbl))
                     .addComponent(tag_table, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(detailed_table, javax.swing.GroupLayout.DEFAULT_SIZE, 199, Short.MAX_VALUE)
+                .addComponent(detailed_table, javax.swing.GroupLayout.DEFAULT_SIZE, 218, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -272,10 +272,6 @@ public class TwitterApp extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void exit_menu_itemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exit_menu_itemActionPerformed
-        System.exit(0);        // TODO add your handling code here:
-    }//GEN-LAST:event_exit_menu_itemActionPerformed
 
     private void search_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_search_btnActionPerformed
         DefaultTableModel dtm = (DefaultTableModel) data_table.getModel();
@@ -336,6 +332,10 @@ public class TwitterApp extends javax.swing.JFrame {
             e.printStackTrace();
         }
     }//GEN-LAST:event_search_btnActionPerformed
+
+    private void exit_menu_itemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exit_menu_itemActionPerformed
+        System.exit(0);        // TODO add your handling code here:
+    }//GEN-LAST:event_exit_menu_itemActionPerformed
 
     /**
      * @param args the command line arguments

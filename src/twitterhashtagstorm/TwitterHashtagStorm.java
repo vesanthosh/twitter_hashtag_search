@@ -22,11 +22,11 @@ public class TwitterHashtagStorm {
     String keyword;
 
     public void initSetup() throws Exception {
-        String consumerKey = "28LU9LF6bs7ZGeqA7PV5ZMHSW";
-        String consumerSecret = "5dOOTFtMT227oEDmPLMtEdntuQGtOVDyj3UmZCJ2wFg1boaw4N";
+        String consumerKey = "Consumer Key";
+        String consumerSecret = "Consumer Secret Key";
 
-        String accessToken = "138728642-o8oXcVQDc1ZrfETueT8k6Pog9fmvGRci8dted6sI";
-        String accessTokenSecret = "qvQfeYylscGtLintHwuZBgMfmHjdALX2mq6yAvZ0rI50o";
+        String accessToken = "Access Token";
+        String accessTokenSecret = "Access Token Secret";
         String[] arguments = {keyword};
         String[] keyWords = Arrays.copyOfRange(arguments, 0, arguments.length);
 
